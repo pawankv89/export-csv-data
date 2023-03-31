@@ -37,6 +37,11 @@ export class AppComponent extends CdkTableExporterModule{
     playerName: 'Paul Pogba',
     playerCountry: 'France',
     playerClub: 'Manchester United'
+  },
+   {
+    playerName: 'Jio',
+    playerCountry: 'France',
+    playerClub: 'Manchester United'
   }];
   displayedColumns: string[] = ['playerName', 'playerCountry', 'playerClub'];
 }
